@@ -1,0 +1,19 @@
+--- #YAML:1.0
+name: Test-Deprecated
+version: 0.10
+author: ~
+abstract: test deprecation in phases
+license: perl
+requires:
+  Test::Warn: 0
+build_requires:
+  Test::Exception: 0
+  Test::More: 0
+  Test::NoBreakpoints: 0
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
+provides:
+  Test::Deprecated:
+    file: lib/Test/Deprecated.pm
+    version: 0.10
+generated_by: Module::Build version 0.2607
